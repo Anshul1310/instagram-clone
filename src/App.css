@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    background-color: #fafafa;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.modal_login_image{
+    height:80px;
+    margin: 20px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.instagram_image {
+    height: 35px;
+    margin: 15px;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.modal_form{
+    width:100%;
+    background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.modal_email_box{
+    width:100%;
+    font-family: 'Cabin', sans-serif;
+    padding-left: 20px;
+    border: 1px solid blue;
+    padding-left: 20dp;
+    background-color: #FAFAFA;
+    height: 45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal_password_box{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid blue;
+    padding-left: 20px;
+    font-family: 'Cabin', sans-serif;
+    background-color: #FAFAFA;
+    height: 45px;
+}
+
+
+
+.modal_main_div{
+    display: flex;
+    min-width: 300px;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.navBar {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    justify-items: center;
 }

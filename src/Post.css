@@ -1,0 +1,27 @@
+.post_div{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    align-content: center;
+}
+
+.captions_post_text{
+    font-weight: normal;
+    padding: 20px;
+}
+
+.post_username{
+    margin-left: 10px;
+}
+
+.post_image{
+    width: 100%;
+    object-fit: contain;
+}
+
+.post_main_div{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
